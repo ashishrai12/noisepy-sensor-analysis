@@ -31,5 +31,11 @@ pip install numpy scipy matplotlib
 python noise_analysis.py
 ```
 
+## Running Tests
+To verify the implementation, you can run the included unit tests:
+```bash
+python test_noise_analysis.py
+```
+
 ## Results Summary
 The implementation successfully recovers the simulated 100-sample delay. Even as the system noise standard deviation increases beyond the ambient signal level, the whitening and one-bit normalization preserve the phase information necessary for a strong correlation peak.
